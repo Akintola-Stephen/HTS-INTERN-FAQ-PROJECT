@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"name": "HTS-INTERN-FAQ-PROJECT",
+			"path": ".."
+		},
+		{
+			"name": "dashboard",
+			"path": "..\\..\\Downloads\\bootstrap-5.0.0-beta3-examples\\bootstrap-5.0.0-beta3-examples\\dashboard"
+		},
+		{
+			"name": "sign-in",
+			"path": "..\\..\\Downloads\\bootstrap-5.0.0-beta3-examples\\bootstrap-5.0.0-beta3-examples\\sign-in"
+		},
+		{
+			"name": "css",
+			"path": "..\\..\\Downloads\\bootstrap-5.0.0-beta3-dist\\bootstrap-5.0.0-beta3-dist\\css"
+		},
+		{
+			"name": "js",
+			"path": "..\\..\\Downloads\\bootstrap-5.0.0-beta3-dist\\bootstrap-5.0.0-beta3-dist\\js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTS-INTERN-FAQ-PROJECT"
+	}
+}
