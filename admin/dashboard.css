@@ -112,4 +112,32 @@ body {
     border-color: transparent;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
   }
+
+#success-message{
+  background-color:lightgreen;
+  padding:10px; 
+  margin-top:15px;
+}
+
+input[type=text].form-control.valid + label:after,
+input[type=text].form-control:focus.valid + label:after,
+input[type=text].form-control.invalid + label:after,
+input[type=text].form-control:focus.invalid + label:after,
+input[type=password].form-control.valid + label:after,
+input[type=password].form-control:focus.valid + label:after,
+input[type=password].form-control.invalid + label:after,
+input[type=password].form-control:focus.invalid + label:after {
+  top: 3.75rem !important;
+}
+
+span.field-icon {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  right: 0.5rem;
+  top: 0.7rem;
+  color: $input-label-color;
+  z-index: 2;
+}
+
   
