@@ -127,13 +127,13 @@
             </div>
 
             <div class="mb-3">
-            <div class="md-form md-outline">
-              <i class="fas fa-key prefix" aria-hidden="true"></i>
-              <label data-error="wrong" data-success="right" for="input-pwd\">Password</label>
-              <input type="password" name="pwd" id="input-pwd" class="form-control validate" required>             
-              <span toggle="#input-pwd" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+              <div class="md-form md-outline">
+                <i class="fas fa-key prefix" aria-hidden="true"></i>
+                <label data-error="wrong" data-success="right" for="input-pwd\">Password</label>
+                <input type="password" name="pwd" id="input-pwd" class="form-control validate" required>
+                <span toggle="#input-pwd" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+              </div>
             </div>
-          </div>
 
             <select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
               <option selected>Assign a role to user ...</option>
@@ -151,8 +151,8 @@
 
         <!-- <canvas class="my-4 w-100" src="my_plot.png" width="900" height="380"></canvas> -->
 
-        <div class="table-responsive">
-          <table class="table table-striped table-sm" id="log-table">
+        <div class="table-responsive" id="customer-log-table">
+          <table class="table table-striped table-sm">
             <thead>
               <tr>
                 <th>Complaint-ID</th>
@@ -208,6 +208,78 @@
           </table>
         </div>
 
+        <div class="table-responsive" id="user-log-table">
+          <table class="table table-striped table-sm">
+            <thead>
+              <tr>
+                <th>User Name</th>
+                <th>Create date</th>
+                <th>Edit</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>1,001</td>
+                <td>random</td>
+                <td><a style="color: black;" class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Last quarter
+                  </a></td>
+
+                <td><a style="color: black;" class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Last quarter
+                  </a></td>
+              </tr>
+
+              <tr>
+                <td>1,002</td>
+                <td>placeholder</td>
+                <td><a class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Last quarter
+                  </a></td>
+                
+                  <td><a class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Last quarter
+                  </a></td>
+              </tr>
+              <tr>
+                <td>1,003</td>
+                <td>data</td>
+                <td><a style="color: black;" class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Last quarter
+                  </a></td>
+
+                <td><a style="color: black;" class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Last quarter
+                  </a></td>
+              </tr>
+
+              <tr>
+                <td>1,003</td>
+                <td>information</td>
+                <td><a style="color: black;" class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Last quarter
+                  </a></td>
+
+                <td><a style="color: black;" class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Last quarter
+                  </a></td>
+
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+
       </main>
     </div>
   </div>
@@ -217,20 +289,39 @@
   <script>
 
     $(document).ready(function () {
-      $('.table-responsive').hide();
-      $('#customer-logs').click(function () {
-        $('.table-responsive').show('slow');
-        $('.wonder').hide();
-        $('#add-user-form').hide();
+      $('#add-user-form').hide();
+      $('#add-user').click(function () {
+        $('#add-user-form').show('slow');
+        $('#user-log-table').hide();
+        $('#customer-log-table').hide();
       });
     });
 
 
     $(document).ready(function () {
+      $('#user-log-table').hide();
+      $('#add-user').click(function () {
+        $('#user-log-table').show('slow');
+        $('#customer-log-table').hide();
+      });
+    });
+
+    
+    $(document).ready(function () {
+      $('#user-log-table').hide();
+      $('#add-user').click(function () {
+        $('#user-log-table').show('slow');
+        $('#customer-log-table').hide();
+      });
+    });
+
+    // add-user-form
+
+    $(document).ready(function () {
       $('#add-user-form').hide();
       $('#add-user').click(function () {
         $('#add-user-form').show('slow');
-        $('.table-responsive').hide();
+        $('#add-user-form').hide();
       });
     });
 
