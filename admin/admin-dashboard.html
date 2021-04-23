@@ -50,23 +50,23 @@
                 Dashboard
               </a>
             </li>
-            
+
             <li class="nav-item">
               <a class="nav-link" href="#" id="add-user">
                 <span data-feather="user-plus"></span>
-                Add users
+                Create user & assign role
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="customer-logs" href="#">
                 <span data-feather="users"></span>
-                Customers logs
+                View request
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
                 <span data-feather="bar-chart-2"></span>
-                View requests
+                Customers logs
               </a>
             </li>
             <li class="nav-item">
@@ -123,30 +123,43 @@
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">User name</label>
               <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  
+
             </div>
-  
+
+            <div class="mb-3">
+            <div class="md-form md-outline">
+              <i class="fas fa-key prefix" aria-hidden="true"></i>
+              <label data-error="wrong" data-success="right" for="input-pwd\">Password</label>
+              <input type="password" name="pwd" id="input-pwd" class="form-control validate" required>             
+              <span toggle="#input-pwd" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+            </div>
+          </div>
+
             <select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
               <option selected>Assign a role to user ...</option>
-              <option value="1">Support user</option>
-              <option value="2">Developer user</option>
+              <option value="1">Support User</option>
+              <option value="2">Developer User</option>
             </select>
-  
-            <button type="submit" class="btn btn-danger">Assign</button>
+
+            <button type="button" class="btn btn-danger" id="assign-save-btn">Assign</button>
+            <div id="success-message">
+              Succesfully assigned role to user
+            </div>
+
           </form>
         </div>
 
         <!-- <canvas class="my-4 w-100" src="my_plot.png" width="900" height="380"></canvas> -->
 
         <div class="table-responsive">
-          <table class="table table-striped table-sm">
+          <table class="table table-striped table-sm" id="log-table">
             <thead>
               <tr>
                 <th>Complaint-ID</th>
                 <th>Customer Name</th>
-                <th>Header</th>
-                <th>Header</th>
-                <th>Header</th>
+                <th>Request message</th>
+                <th>logged request time</th>
+                <th>Assign request to user</th>
               </tr>
             </thead>
             <tbody>
@@ -155,28 +168,40 @@
                 <td>random</td>
                 <td>data</td>
                 <td>placeholder</td>
-                <td>text</td>
+                <td><a style="color: black;" class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Last quarter
+                  </a></td>
               </tr>
               <tr>
                 <td>1,002</td>
                 <td>placeholder</td>
                 <td>irrelevant</td>
                 <td>visual</td>
-                <td>layout</td>
+                <td><a class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Last quarter
+                  </a></td>
               </tr>
               <tr>
                 <td>1,003</td>
                 <td>data</td>
                 <td>rich</td>
                 <td>dashboard</td>
-                <td>tabular</td>
+                <td><a class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Last quarter
+                  </a></td>
               </tr>
               <tr>
                 <td>1,003</td>
                 <td>information</td>
                 <td>placeholder</td>
                 <td>illustrative</td>
-                <td>data</td>
+                <td><a class="nav-link" href="#">
+                    <span data-feather="file-text"></span>
+                    Last quarter
+                  </a></td>
               </tr>
 
             </tbody>
@@ -190,6 +215,7 @@
   <script src="bootstrap.bundle.min.js"></script>
 
   <script>
+
     $(document).ready(function () {
       $('.table-responsive').hide();
       $('#customer-logs').click(function () {
@@ -208,6 +234,7 @@
       });
     });
 
+
     $(document).ready(function () {
       $('.d-flex').hide();
       $('#dash').click(function () {
@@ -217,7 +244,75 @@
       });
     });
 
+    $(document).ready(function () {
+      $('#success-message').hide();
+      $('#assign-save-btn').click(function () {
+        $('#success-message').fadeIn('slow');
+        setTimeout(function () {
+          $('#success-message').fadeOut("slow");
+        }, 1000);
+        $('.table-responsive').hide();
+      });
+    });
 
+  </script>
+
+  <script>
+    [{
+      "name": "Alberta",
+      "abbreviation": "AB"
+    },
+      {
+        "name": "British Columbia",
+        "abbreviation": "BC"
+      },
+      {
+        "name": "Manitoba",
+        "abbreviation": "MB"
+      },
+      {
+        "name": "New Brunswick",
+        "abbreviation": "NB"
+      },
+      {
+        "name": "Newfoundland and Labrador",
+        "abbreviation": "NL"
+      },
+      {
+        "name": "Nova Scotia",
+        "abbreviation": "NS"
+      }]
+
+
+    let dropdown = $('#locality-dropdown');
+
+    dropdown.empty();
+
+    dropdown.append('<option selected="true" disabled>Choose State/Province</option>');
+    dropdown.prop('selectedIndex', 0);
+
+    const url = 'https://api.myjson.com/bins/7xq2x';
+
+    // Populate dropdown with list of provinces
+    $.getJSON(url, function (data) {
+      $.each(data, function (key, entry) {
+        dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
+      })
+    });
+  </script>
+
+
+  <script>
+    $('.toggle-password').on('click', function () {
+      $(this).toggleClass('fa-eye fa-eye-slash');
+      let input = $($(this).attr('toggle'));
+      if (input.attr('type') == 'password') {
+        input.attr('type', 'text');
+      }
+      else {
+        input.attr('type', 'password');
+      }
+    });
 
   </script>
 
@@ -228,7 +323,7 @@
     integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha"
     crossorigin="anonymous"></script>
 
-    <script src="dashboard.js"></script>
+  <script src="dashboard.js"></script>
 </body>
 
 </html>
