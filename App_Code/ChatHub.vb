@@ -14,43 +14,32 @@ Imports System.Drawing
         Dim DAL As New DAL
 
         Public Function interns_Insert(
-            ByVal product As String,ByVal email As String, 
-            ByVal quantity As Integer,ByVal phoneNumber As Integer,
-            ByVal comment As String 
+            ByVal JSON_STRING As String,
+            ByVal ACTION_TYPE As String  
             ) As String
-
+            
             Dim status As String = "ERROR"
             Dim dc_return As New Dictionary(Of String, Object)
             
             Try
-                Dim ds As DataSet = DAL.internsInsert_SignalR(product, email, quantity, phoneNumber, comment)
+                Dim ds As DataSet = DAL.internsInsert_SignalR(JSON_STRING, ACTION_TYPE)
                 Dim dt As DataTable = ds.Tables(0)
                 dc_return.Add("RESULT", dt)
+                dc_return.Add("ACTION_TYPE", ACTION_TYPE)
                 status = "SUCCESS"
+                
             Catch ex As Exception
                 BLL.WriteLog(ex.Message + " : " + ex.StackTrace)
             End Try
 
             dc_return.Add("STATUS", status)
-            Clients.All.broadcastMessage(JsonConvert.SerializeObject(dc_return))
+             Clients.All.broadcastrecords(JsonConvert.SerializeObject(dc_return))
+            Return JsonConvert.SerializeObject(dc_return)
         End Function
 
-     Public Function fetchRecords() As String
-        Dim status As String = "ERROR"
-        Dim dc_return As New Dictionary(Of String, Object)
-        Try
-                Dim ds As DataSet = DAL.fetchRecords()
-                Dim dt As DataTable = ds.Tables(0)
-                dc_return.Add("RESULT", dt)
-                status = "SUCCESS"
 
-          
-        Catch ex As Exception
-            BLL.WriteLog(ex.Message + " : " + ex.StackTrace)
-        End Try
-        dc_return.Add("STATUS", status)
-        Clients.All.broadcastrecords(JsonConvert.SerializeObject(dc_return))
-        End Function
+  
+
 
     End Class
 

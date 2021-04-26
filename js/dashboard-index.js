@@ -17,13 +17,12 @@ var pageload = function(){
     return {
         init: function(){
          pageload.pageEvents();
-         pageload.fetchData();
+         // pageload.fetchData();
         },
 
-        addProduct: function(event){
+        addUser: function(event){
           event.preventDefault();         
           console.warn(chat);
-
           // SignalR code that allows communication between VB and JS code together 
           $.connection.hub.start().done(function () {
             console.log('connected !!!')
@@ -36,8 +35,7 @@ var pageload = function(){
             .done(function(data){
               console.log(data);
             });   
-         
-
+        
             console.log(databaseRegisteredUsers);
             pageload.clearForm(event.target);
          
@@ -72,23 +70,17 @@ var pageload = function(){
 
           $("#addtoCart").off("click").on("click", function(event){
             event.preventDefault();
-            pageload.addProduct(event);
+            pageload.addUser(event);
           });
 
-          $("#cty").off("click").on("click", function(event){
-            var count = parseInt($("#qty").val());
-            count++;
-            $("#qty").val(count)
-          });
         },
         
         getDataFromFormData: function() {
           var obj = {};
-          $("#reg-form input, #reg-form textarea").filter(function(i,o){
+          $("#add-user-form input, #add-user-form option").filter(function(i,o){
               obj[$(o).attr("name")] = $(o).val();
           });
           return obj;
-         // return  Array.from(data.entries()).reduce((data, entry) => { data[entry[0]] = entry[1]; return data; }, {})
         },
 
         fetchData: function(){
@@ -99,8 +91,7 @@ var pageload = function(){
         },
 
         clearForm: function(form) {
-        $("input, textarea").val("");
-        $("#qty").val(1);
+        $("input, option").val("");
       }
     }
 

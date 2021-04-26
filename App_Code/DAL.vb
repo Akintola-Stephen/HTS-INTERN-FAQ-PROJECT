@@ -12,19 +12,17 @@ Public Class DAL
     End Sub
 
     Public Function internsInsert_SignalR(
-        ByVal product As String,ByVal email As String,
-        ByVal quantity As String,ByVal phoneNumber As String,ByVal comment As String
+        ByVal JSON_STRING As String,
+        ByVal ACTION_TYPE As String 
         ) As DataSet
+       
         Try
-            Dim params() As SqlParameter = {New SqlParameter("@ProductName", product),
-                                            New SqlParameter("@Email", email),
-                                            New SqlParameter("@ProductQty", quantity),
-                                            New SqlParameter("@Mobile", phoneNumber),
-                                            New SqlParameter("@ProductMessage", comment)
+            Dim params() As SqlParameter = {New SqlParameter("@JSON_STRING", JSON_STRING),
+                                            New SqlParameter("@ACTION_TYPE", ACTION_TYPE)
                                             }
                                             
-            ' INTERNS_ACTION is used to specify the name of the stored procedure
-            Return SqlHelper.ExecuteDataset(conn, CommandType.StoredProcedure, "INSERT_PRODUCT", params)
+            'ADMIN_USER_MODULE_OPERATION is used to specify the name of the stored procedure
+            Return SqlHelper.ExecuteDataset(conn, CommandType.StoredProcedure, "ADMIN_USER_MODULE_OPERATION", params)
         Catch ex As Exception
             BLL.WriteLog(ex.Message + " : " + ex.StackTrace)
             Return Nothing
@@ -33,15 +31,9 @@ Public Class DAL
         End Try
     End Function
 
+
+   
+
     
-    Public Function fetchRecords() As DataSet
-        Try
-            Return SqlHelper.ExecuteDataset(conn, CommandType.StoredProcedure, "SELECT_PRODUCT")
-        Catch ex As Exception
-            BLL.WriteLog(ex.Message + " : " + ex.StackTrace)
-            Return Nothing
-        Finally
-            conn.Close()
-        End Try
-    End Function
+  
 End Class
