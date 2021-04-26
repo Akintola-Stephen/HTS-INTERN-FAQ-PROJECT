@@ -33,6 +33,11 @@ CREATE TABLE dbo.users
 );
 GO
 
+-- SELECTING EVERYTING FROM USER AND ROLE TABLE
+SELECT USER_NAME, USER_EMAIL, (SELECT ROLE_NAME FROM Roles WHERE ROLEID = U.ROLEID) AS ROLE_NAME 
+FROM USERS U
+
+
 
 
 -- DELETE FROM users
@@ -81,7 +86,6 @@ GO
 SELECT * FROM mapping
 
 
-
 -- Create a new table called 'category' in schema 'SchemaName'
 -- Drop the table if it already exists
 IF OBJECT_ID('dbo.category', 'U') IS NOT NULL
@@ -98,7 +102,6 @@ CREATE TABLE dbo.complaint_category
 GO
 
 -- DROP TABLE complaint_category
-
 
 -- Create a new table called 'customer' in schema 'SchemaName'
 -- Drop the table if it already exists
