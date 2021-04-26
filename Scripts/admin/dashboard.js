@@ -38,7 +38,6 @@ var pageload = function(){
               console.log(data);
             });   
          
-
             console.log(databaseRegisteredUsers);
             pageload.clearForm(event.target);
          
@@ -84,7 +83,7 @@ var pageload = function(){
               obj[$(o).attr("name")] = $(o).val();
           });
           return obj;
-         // return  Array.from(data.entries()).reduce((data, entry) => { data[entry[0]] = entry[1]; return data; }, {})
+         
         },
 
         fetchData: function(){
