@@ -1,8 +1,9 @@
 var databaseRegisteredUsers = [];
-var table = $("#productsTable");
+var table = $("#requestTable");
 var chat = $.connection.chatHub;
 
 chat.client.broadcastrecords = function(data){
+  console.log(data);
   var dData = JSON.parse(data)
   if (dData.ACTION_TYPE == 'SELECT'){
       pageload.generateTable(dData.RESULT);
@@ -51,7 +52,7 @@ var pageload = function(){
         },
 
         generateTable: function(myDataa){
-          pageload.compileAndInertHtml('table', {products:myDataa}, 'product-area');
+          pageload.compileAndInertHtml('table', {request:myDataa}, 'request-area');
           pageload.pageEvents();
         },
 

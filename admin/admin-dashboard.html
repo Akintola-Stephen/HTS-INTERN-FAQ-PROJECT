@@ -37,7 +37,7 @@
 
 </head>
 
-<body style="font-family: ubuntu;">
+<body style="font-family: fira code condensed;">
 
   <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
     <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Hts</a>
@@ -176,11 +176,11 @@
         </div>
 
         <!-- <canvas class="my-4 w-100" src="my_plot.png" width="900" height="380"></canvas> -->
-        <div class="card" id="product-area">
 
         <div class="table-responsive" id="log-table">
+          <div class="card" id="request-area"></div>
           <script id="table" type="text/x-handlebars">
-            <table class="table hover" id="productsTable">
+            <table class="table hover" id="log-table">
               <thead>
                 <tr>
                   <th>CUSTOMER NAME</th>
@@ -190,16 +190,17 @@
                 </tr>
               </thead>
               <tbody>
-                {{#each products}}
+                {{#each request}}
                   <tr>
                     <td>{{CUSTOMER_NAME}}</td>
-                    <td id='mailto'>{{REQUEST}}</td>
-                    <td>{{STATUS}}</td>
-                    <td><button class='btn waves-effect waves-light red deleteBtn' id='delMail' data-index="{{@index}}" data-id={{PRODUCT_ID}}>Delete</button></td>
+                    <td>{{REQUEST}}</td>
+                    <td>{{STATUS_NAME}}</td>
+                    <td><button class='btn btn-delete deleteBtn' id='delMail' data-index="{{@index}}" data-id={{PRODUCT_ID}}>Delete</button></td>
                   </tr>
                 {{/each}}
               </tbody>
             </table>
+          </script>
         </div>
 
         <div class="table-responsive" id="user-log-table">
@@ -226,46 +227,7 @@
                     Last quarter
                   </a></td>
               </tr>
-              <tr>
-                <td>1,002</td>
-                <td>placeholder</td>
-                <td>irrelevant</td>
-                <td>visual</td>
-                <td><a class="nav-link" href="#">
-                    <span data-feather="file-text"></span>
-                    Last quarter
-                  </a></td>
-              </tr>
-
-
-              <tr>
-                <td>1,003</td>
-                <td>data</td>
-                <td><a style="color: black;" class="nav-link" href="#">
-                    <span data-feather="file-text"></span>
-                    Last quarter
-                  </a></td>
-
-                <td><a style="color: black;" class="nav-link" href="#">
-                    <span data-feather="file-text"></span>
-                    Last quarter
-                  </a></td>
-              </tr>
-
-              <tr>
-                <td>1,003</td>
-                <td>information</td>
-                <td><a style="color: black;" class="nav-link" href="#">
-                    <span data-feather="file-text"></span>
-                    Last quarter
-                  </a></td>
-
-                <td><a style="color: black;" class="nav-link" href="#">
-                    <span data-feather="file-text"></span>
-                    Last quarter
-                  </a></td>
-
-              </tr>
+              
 
             </tbody>
           </table>
@@ -295,7 +257,7 @@
     </div>
   </div>
 
-  <script src="../Scripts/bootstrap.bundle.min.js"></script>
+   <script src="../Scripts/bootstrap.bundle.min.js"></script>
 
   <script>
 
@@ -315,7 +277,7 @@
       $('#add-user-form').hide();
       $('#add-user').click(function () {
         $('#add-user-form').show('slow');
-        $('.table-responsive').hide();
+        $('#log-table').hide();
       });
     });
 
