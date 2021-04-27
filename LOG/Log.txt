@@ -12,8 +12,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:21:13 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:21:13 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 12:07:14 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 12:07:14 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -28,8 +28,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:21:45 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:21:45 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 12:07:31 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 12:07:31 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -44,8 +44,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:22:29 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:22:29 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 12:10:19 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 12:10:19 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -60,8 +60,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:25:10 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:25:10 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 12:10:35 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 12:10:35 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -76,8 +76,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:26:30 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:26:30 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 12:11:22 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 12:11:22 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -92,8 +92,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:26:51 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:26:51 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 12:12:14 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 12:12:14 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -108,8 +108,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:27:30 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:27:30 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 12:55:04 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 12:55:04 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -124,8 +124,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:27:51 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:27:51 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 12:59:34 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 12:59:34 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -140,8 +140,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:33:17 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:33:17 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:02:21 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:02:21 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -156,8 +156,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:33:44 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:33:44 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:03:59 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:03:59 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -172,8 +172,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:36:22 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:36:22 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:04:11 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:04:11 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -188,8 +188,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:36:30 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:36:30 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:09:09 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:09:09 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -204,8 +204,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:37:14 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:37:14 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:15:47 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:15:47 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -220,8 +220,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:37:26 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:37:26 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:15:48 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:15:48 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -236,8 +236,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:38:29 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:38:29 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:15:51 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:15:51 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -252,8 +252,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:38:52 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:38:52 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:15:58 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:15:58 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -268,8 +268,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:49:03 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:49:03 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:16:20 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:16:20 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -284,8 +284,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:50:41 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:50:41 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:36:53 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:36:53 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -300,8 +300,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:53:13 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:53:13 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:37:05 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:37:05 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -316,8 +316,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:53:32 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:53:32 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:38:58 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:38:58 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -332,8 +332,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:54:59 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:54:59 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:44:03 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:44:03 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -348,8 +348,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:57:24 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:57:24 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:44:21 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:44:21 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -364,8 +364,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:57:37 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:57:37 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:45:29 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:45:29 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -380,8 +380,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:57:58 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:57:58 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:45:32 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:45:32 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -396,8 +396,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 2:58:34 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 2:58:34 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:45:41 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:45:41 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -412,8 +412,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:05:11 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:05:11 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:46:00 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:46:00 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -428,8 +428,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:05:40 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:05:40 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:46:20 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:46:20 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -444,8 +444,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:06:27 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:06:27 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:48:52 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:48:52 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -460,8 +460,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:06:29 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:06:29 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:49:45 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:49:45 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -476,8 +476,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:07:15 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:07:15 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 1:50:00 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 1:50:00 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -492,8 +492,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:08:00 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:08:00 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 2:08:33 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 2:08:33 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -508,8 +508,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:08:10 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:08:10 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 2:09:16 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 2:09:16 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -524,8 +524,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:08:11 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:08:11 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 2:09:18 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 2:09:18 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -540,8 +540,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:43:02 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:43:02 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 2:09:53 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 2:09:53 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -556,8 +556,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:44:33 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:44:33 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 2:10:17 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 2:10:17 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -572,8 +572,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:45:13 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:45:13 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 2:12:37 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 2:12:37 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -588,8 +588,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:45:47 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:45:47 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 2:13:19 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 2:13:19 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -604,8 +604,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:47:14 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:47:14 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 2:13:22 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 2:13:22 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -620,8 +620,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:47:36 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:47:36 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 2:13:25 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 2:13:25 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -636,8 +636,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:47:57 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:47:57 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 2:13:41 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 2:13:41 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -652,8 +652,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:50:28 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:50:28 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:07:52 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:07:53 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -668,8 +668,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:50:58 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:50:58 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:08:13 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:08:13 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -684,8 +684,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:52:42 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:52:42 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:08:40 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:08:40 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -700,8 +700,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:53:17 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:53:17 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:08:52 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:08:52 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -716,8 +716,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:53:48 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:53:48 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:14:57 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:14:57 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -732,8 +732,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:54:04 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:54:04 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:18:05 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:18:05 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -748,8 +748,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:54:38 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:54:38 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:19:06 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:19:06 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -764,8 +764,8 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:55:55 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:55:55 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:24:34 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:24:34 pm
 Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
@@ -780,5 +780,117 @@ Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Da
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
    at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
-   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 26/04/2021 3:55:57 pm
-Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 26/04/2021 3:55:57 pm
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:24:42 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:24:42 pm
+Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:24:54 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:24:54 pm
+Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:25:20 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:25:20 pm
+Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:25:36 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:25:36 pm
+Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:26:52 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:26:52 pm
+Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:34:23 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:34:23 pm
+Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:35:38 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:35:38 pm
+Could not find stored procedure 'ADMIN_USER_MODULE_OPERATION'. :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at DAL.internsInsert_SignalR(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\DAL.vb:line 25 | 27/04/2021 3:35:43 pm
+Object reference not set to an instance of an object. :    at ChatHub.interns_Insert(String JSON_STRING, String ACTION_TYPE) in C:\inetpub\wwwroot\HTS-INTERN-FAQ-PROJECT\App_Code\ChatHub.vb:line 26 | 27/04/2021 3:35:43 pm

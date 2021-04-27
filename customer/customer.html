@@ -15,8 +15,13 @@
 
     <script src="../Scripts/jquery.min.js" type="text/javascript"></script>
     <script src="../Scripts/jquery-1.7.1.js" type="text/javascript"></script>
+    <script src="../Scripts/handlebars-v4.7.7.js"></script>
+
+
     <!-- Bootstrap core CSS -->
     <link rel="text/css" href="bootstrap.min.css" rel="stylesheet">
+
+
 
     <style>
         .bd-placeholder-img {
@@ -99,7 +104,6 @@
                         </li>
                     </ul>
 
-
                 </div>
             </nav>
 
@@ -110,30 +114,13 @@
 
                 </div>
 
-                <div class="container" style="width: 80%;">
-                    <form id="complaint-form">
+                <form id="complaint-form">
+                    <div class="mb-3">
+                        <textarea class="form-control" placeholder="log complaint" id="floatingTextarea"></textarea>
 
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Customer Name</label>
-                            <input type="text" class="form-control" id="exampleInputCustomerName"
-                                aria-describedby="emailHelp">
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">mail address</label>
-                            <input type="mail" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-
-                        </div>
-
-
-                        <div class="mb-3">
-                            <textarea class="form-control" placeholder="log complaint" id="floatingTextarea"></textarea>
-
-                        </div>
-                        <button type="submit" class="btn btn-danger">Log complaint</button>
-                    </form>
-                </div>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Log complaint</button>
+                </form>
 
                 <!-- <canvas class="my-4 w-100" src="my_plot.png" width="900" height="380"></canvas> -->
 
@@ -143,43 +130,23 @@
                         <thead>
                             <tr>
                                 <th>Complaint-ID</th>
+                                <th>Name</th>
                                 <th>Header</th>
-                                <th>Header</th>
-                                <th>Header</th>
-                                <th>Header</th>
+                                <th>Date of Complaint</th>
+                                <th>Complaint Status</th>
                                 <th>Edit</th>
                             </tr>
                         </thead>
                         <tbody>
+                            {{#each complaint}}
                             <tr>
-                                <td>1,001</td>
+                                <td>COMPLA</td>
                                 <td>random</td>
                                 <td>data</td>
-                                <td>placeholder</td>
-                                <td>text</td>
+                                <td>{{STATUS}}</td>
+                                <td>{{DATE_CREATED}}</td>
                             </tr>
-                            <tr>
-                                <td>1,002</td>
-                                <td>placeholder</td>
-                                <td>irrelevant</td>
-                                <td>visual</td>
-                                <td>layout</td>
-                            </tr>
-                            <tr>
-                                <td>1,003</td>
-                                <td>data</td>
-                                <td>rich</td>
-                                <td>dashboard</td>
-                                <td>tabular</td>
-                            </tr>
-                            <tr>
-                                <td>1,003</td>
-                                <td>information</td>
-                                <td>placeholder</td>
-                                <td>illustrative</td>
-                                <td>data</td>
-                            </tr>
-
+                            {{each}}
                         </tbody>
                     </table>
                 </div>

@@ -1,4 +1,4 @@
-var databaseRegisteredUsers = [];
+var customerComplaint = [];
 var table = $("#productsTable");
 var chat = $.connection.chatHub;
 
@@ -21,7 +21,7 @@ var pageload = function(){
          pageload.fetchData();
         },
 
-        addUser: function(event){
+        logComplaint: function(event){
           event.preventDefault();         
           console.warn(chat);
 
@@ -30,7 +30,7 @@ var pageload = function(){
             console.log('connected !!!')
             var myobj = pageload.getDataFromFormData();
             console.log(myobj);
-            databaseRegisteredUsers.push(myobj);
+            customerComplaint.push(myobj);
             
             var JSON_STRING = JSON.stringify(databaseRegisteredUsers);
             chat.server.interns_Insert(JSON_STRING, 'INSERT')
@@ -38,7 +38,7 @@ var pageload = function(){
               console.log(data);
             });   
          
-            console.log(databaseRegisteredUsers);
+            console.log(customerComplaint);
             pageload.clearForm(event.target);
     
           });
@@ -51,7 +51,7 @@ var pageload = function(){
         },
 
         generateTable: function(myDataa){
-          pageload.compileAndInertHtml('table', {products:myDataa}, 'product-area');
+          pageload.compileAndInertHtml('table', {complaint:customerComplaint}, 'product-area');
           pageload.pageEvents();
         },
 
@@ -71,7 +71,7 @@ var pageload = function(){
 
           $("#assign-user-btn").off("click").on("click", function(event){
             event.preventDefault();
-            pageload.addUser(event);
+            pageload.logComplaint(event);
           });
 
         },
