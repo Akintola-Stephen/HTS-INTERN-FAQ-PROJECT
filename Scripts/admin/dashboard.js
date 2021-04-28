@@ -66,11 +66,29 @@ var pageload = function(){
              
             });
           });
+
+          $("#update-btn").off("click").on("click", function(event){
+            event.preventDefault()
+            var user_id = $(this).data("id");
+            console.log(user_id)
+            $.connection.hub.start().done(function () {
+              // console.log(' update function activated connected !!!')
+              var myobj = [{USERID :user_id }]
+
+              var JSON_STRING = JSON.stringify(myobj);
+              chat.server.interns_Update(JSON_STRING, 'UPDATE');
+             
+            });
+          });
           
 
           $("#assign-user-btn").off("click").on("click", function(event){
             event.preventDefault();
             pageload.addUser(event);
+            $('#success-message').fadeIn('slow');
+            setTimeout(function () {
+              $('#success-message').fadeOut("slow");
+            }, 1000);
           });
 
         },
