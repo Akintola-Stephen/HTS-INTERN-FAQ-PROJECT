@@ -29,14 +29,17 @@ var pageload = function(){
           $.connection.hub.start().done(function () {
             console.log('connected !!!')
             var myobj = pageload.getDataFromFormData();
+            console.log(myobj);
             databaseRegisteredUsers.push(myobj);
-            pageload.clearForm(event.target);
-
+            
             var JSON_STRING = JSON.stringify(databaseRegisteredUsers);
             chat.server.interns_Insert(JSON_STRING, 'INSERT')
             .done(function(data){
               console.log(data);
             });   
+         
+            console.log(databaseRegisteredUsers);
+            pageload.clearForm(event.target);
     
           });
         },
@@ -80,7 +83,6 @@ var pageload = function(){
           $("#add-user-form input, #add-user-form select").filter(function(i,o){
               obj[$(o).attr("name")] = $(o)[0].value;
           });
-          console.log(obj)
           return obj;
          
         },
@@ -93,7 +95,8 @@ var pageload = function(){
         },
 
         clearForm: function(form) {
-        $("input, #selected").val("");
+        $("input, textarea").val("");
+        $("#selected").val("");
       }
     }
 
