@@ -59,8 +59,7 @@
     <div class="row">
 
       <!-- SideBar -->
-      <nav id="sidebarMenu" class="col-md-4 col-lg-2 d-md-block bg-light sidebar collapse"
-        style="font-family: ubuntu condensed;">
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
         <div class="position-sticky pt-3">
           <ul class="nav flex-column">
             <li class="nav-item">
@@ -169,6 +168,7 @@
             </select>
 
             <button type="button" class="btn btn-danger" id="assign-user-btn">Assign</button>
+
             <div id="success-message">
               Succesfully assigned role to user
             </div>
@@ -200,8 +200,9 @@
                     <td>{{STATUS_NAME}}</td>
                     <td>{{DATE_CREATED}}</td>
                     <td><select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example" name="ROLE_ID">
-                      <option selected>Assign request to user ...</option>
-                      <option value="">{{USER_NAME}}</option>
+                      <option selected>Assign task to user ...</option>
+                      <option value="1">Stephen</option>
+                      <option value="2">Bolaji</option>
                       
                     </select></td>
                     <td><button class='btn btn-success deleteBtn' id='delMail' data-index="{{@index}}" data-id={{PRODUCT_ID}}>Assign</button></td>
@@ -262,6 +263,12 @@
       </main>
     </div>
   </div>
+
+
+  <script src="../Scripts/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
+
 
   <script src="../Scripts/bootstrap.bundle.min.js"></script>
 
@@ -333,6 +340,7 @@
   </script>
 
   <script src="../Scripts/admin/dashboard.js"></script>
+
 </body>
 
 </html>
