@@ -45,6 +45,10 @@ var pageload = function(){
           const templateStr = document.getElementById(template).innerHTML
           const compilled = Handlebars.compile(templateStr)(data)
           document.getElementById(outputelement).innerHTML = compilled
+
+          Handlebars.registerHelper('formatDate', function (date) {
+            return new Date(date).toDateString();
+        })
           
         },
         
@@ -66,7 +70,7 @@ var pageload = function(){
              
             });
           });
-
+          
           $("#update-btn").off("click").on("click", function(event){
             event.preventDefault()
             var user_id = $(this).data("id");
@@ -91,6 +95,16 @@ var pageload = function(){
             }, 1000);
           });
 
+        },
+
+        getDataForUpdate: function() {
+          var updateObj = {};
+          $("#log-table select, #log-table name").filter(function(i,o){
+            updateObj[$(o).attr("name")] = $(o)[0].value;
+          });
+          console.log(updateObj)
+          return updateObj;
+         
         },
         
         getDataFromFormData: function() {

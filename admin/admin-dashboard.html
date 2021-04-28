@@ -182,7 +182,7 @@
           <div class="card" id="request-area"></div>
 
           <script id="table" type="text/x-handlebars">
-            <table class="table hover" id="log-table">
+            <table class="table table-striped" id="log-table">
               <thead>
                 <tr>
                   <th>CUSTOMER NAME</th>
@@ -197,7 +197,7 @@
                   <tr>
                     <td>{{CUSTOMER_NAME}}</td>
                     <td>{{REQUEST}}</td>
-                    <td>{{STATUS_NAME}}</td>
+                    <td name = "status-name">{{STATUS_NAME}}</td>
                     <td>{{DATE_CREATED}}</td>
                     <td><select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example" name="ROLE_ID">
                       <option selected>Assign task to user ...</option>
@@ -205,7 +205,7 @@
                       <option value="2">Bolaji</option>
                       
                     </select></td>
-                    <td><button class='btn btn-success ' id='update-btn' data-index="{{@index}}" data-id={{PRODUCT_ID}}>Assign</button></td>
+                    <td><button class='btn btn-success ' id='update-btn' data-index="{{@index}}" data-id={{CUSTOMER_ID}}>Assign</button></td>
                   </tr>
                 {{/each}}
               </tbody>
@@ -239,6 +239,7 @@
             </tbody>
           </table>
         </div>
+        
 
         <div class="container" id="customers-logs-form">
           <div id="add-user-forms">
@@ -272,74 +273,8 @@
 
   <script src="../Scripts/bootstrap.bundle.min.js"></script>
 
-  <script>
-
-    $(document).ready(function () {
-      $('.table-responsive').hide();
-      $('#customer-logs').click(function () {
-        $('.table-responsive').show('slow');
-        $('.wonder').hide();
-        $('#add-user-form').hide();
-        $("#user-log-table").hide();
-        $('#customers-logs-form').hide();
-      });
-    });
-
-
-    $(document).ready(function () {
-      $('#add-user-form').hide();
-      $('#add-user').click(function () {
-        $('#add-user-form').show('slow');
-        $('#log-table').hide();
-      });
-    });
-
-
-    $(document).ready(function () {
-      $('.d-flex').hide();
-      $('#dash').click(function () {
-        $('.d-flex').show('slow');
-        $('.table-responsive').hide();
-        $('#add-user-form').hide();
-      });
-    });
-
-
-    $(document).ready(function () {
-      $('#customers-logs-form').hide();
-      $('#customers-logs').click(function () {
-        $('#customers-logs-form').hide();
-        $('.table-responsive').hide();
-        $('#add-user-form').hide();
-        $('#customers-logs-form').show('slow');
-      });
-    });
-
-
-    $(document).ready(function () {
-      $('#success-message').hide();
-      $('#assign-user-btn').click(function () {
-        $('#success-message').fadeIn('slow');
-        setTimeout(function () {
-          $('#success-message').fadeOut("slow");
-        }, 1000);
-        $('.table-responsive').hide();
-      });
-    });
-
-    // Filtering name on-key press real time
-    $(document).ready(function () {
-      $("#myInput").on("keyup", function () {
-        var value = $(this).val().toLowerCase();
-        $("#log-table tr").filter(function () {
-          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-        });
-      });
-    });
-
-  </script>
-
   <script src="../Scripts/admin/dashboard.js"></script>
+  <script src="../Scripts/admin/hide-show-functions.js"></script>
 
 </body>
 
