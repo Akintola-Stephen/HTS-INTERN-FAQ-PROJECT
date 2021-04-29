@@ -46,15 +46,15 @@
   <link href="../users/dashboard.css" rel="stylesheet">
 </head>
 
-<body style="font-family: ubuntu condensed;">
+<body style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
 
-  <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow" style="font-family: ubuntu condensed;">
+  <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
     <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">High Tech Synegy</a>
     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
       data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" id="myInput" aria-label="Search">
     <ul class="navbar-nav px-3">
       <li class="nav-item text-nowrap">
         <a class="nav-link" href="#">Sign out</a>
@@ -63,7 +63,7 @@
   </header>
 
   <div class="container-fluid" style="margin-top: 50px;">
-    <div class="row" style="font-family: ubuntu condensed;">
+    <div class="row">
       <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
         <div class="position-sticky pt-3">
 
@@ -87,11 +87,10 @@
                 View request
               </a>
             </li>
-    
             <li class="nav-item">
-              <a class="nav-link" id="customers-logs" href="#">
+              <a class="nav-link" id="category-assign" href="#">
                 <span data-feather="bar-chart-2"></span>
-                Customers logs
+                Create complaint category
               </a>
             </li>
             <li class="nav-item">
@@ -165,12 +164,46 @@
     
             <button type="button" class="btn btn-danger" id="assign-user-btn">Assign</button>
     
-            <div id="success-message">
+            <div id="success-message" style="background-color: green; padding-top: 5px; padding-bottom: 5px; padding-right:5px; padding-left: 5px;">
               Succesfully assigned role to user
             </div>
     
           </div>
+
+          <!-- <div id="category-create-form">
+    
+            <div class="mb-3">
+              <label for="exampleInputName" class="form-label">User name</label>
+              <input type="text" name="USERNAME" class="form-control" id="exampleInputName"
+                aria-describedby="emailHelp">
+            </div>
+    
+            <div class="mb-3">
+              <div class="md-form md-outline">
+                <i class="fas fa-key prefix" aria-hidden="true"></i>
+                <label data-error="wrong" data-success="right" for="input-pwd\">Password</label>
+                <input type="password" name="PASSWORD" id="input-pwd" class="form-control validate" required>
+                <span toggle="#input-pwd" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+              </div>
+            </div>
+    
+            <select class="form-select form-select-sm mb-3" aria-label=".form-select-lg example" id="selected"
+              name="ROLE_ID">
+              <option selected>Assign a role to user ...</option>
+              <option value="1">Support User</option>
+              <option value="2">Developer User</option>
+            </select>
+    
+            <button type="button" class="btn btn-danger" id="assign-user-btn">Assign</button>
+    
+            <div id="success-message" style="background-color: green; padding-top: 5px; padding-bottom: 5px; padding-right:5px; padding-left: 5px;">
+              Succesfully assigned role to user
+            </div>
+    
+          </div> -->
         </div>
+
+        
 
         <div class="table-responsive" id="log-table">
           <div class="card" id="request-area"></div>
@@ -181,27 +214,36 @@
                 <tr>
                   <th>COMPLAINT ID</th>
                   <th>CUSTOMER NAME</th>
-                  <th>REQUEST MESSAGE</th>
+                  <th>COMPLAINT MESSAGE</th>
                   <th>REQUEST STATUS</th>
                   <th>LOGGED REQUEST DATE</th>
-                  <th>ASSIGN REQUEST TO USER</th>
+                  <th>DELEGATE REQUEST TO A USER</th>
+                  <th> ASSIGN COMPLAINT TO CATEGORY </th>
                 </tr>
               </thead>
             <tbody>
                 {{#each request}}
-                  <tr>
+                  <tr data-id={{COMPLAINT_ID}}>
                     <td>{{COMPLAINT_ID}}
                     <td>{{CUSTOMER_NAME}}</td>
                     <td>{{REQUEST}}</td>
                     <td name = "status-name">{{STATUS_NAME}}</td>
                     <td>{{formatDate DATE_CREATED}}</td>
-                    <td><select id="request-select" class="form-select form-select-sm mb-3" aria-label=".form-select-lg example" name="ROLE_ID">
-                      <option selected>Assign task to user ...</option>
-                      <option  value="1">Stephen</option>
-                      <option  value="2">Bolaji</option>
+                    <td>
+                      <select id="request-select" class="form-select form-select-sm mb-3" aria-label=".form-select-lg example" name="ROLE_ID">
+                        <option selected>Delegate request to user ...</option>
+                        {{#each ../users}}
+                        <option  value={{id}}>{{username}}</option>
+                        {{/each}}
+                      </select>
+                    </td>
+
+                    <td><select id="complaint-category-select" class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
+                      <option  value="1">Mild</option>
+                      <option  value="2">Severe</option>
+                      <option value="3">Immediate response</option>
                       
                     </select></td>
-                    <td><button class='btn btn-success ' id='update-btn' data-index="{{@index}}" data-id="{{USERID}}">Assign</button></td>
                   </tr>
                 {{/each}}
               </tbody>
@@ -225,6 +267,7 @@
     integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha"
     crossorigin="anonymous"></script>
   <script src="../users/dashboard.js"></script>
+
 
   <script>
     Handlebars.registerHelper('formatDate', function (date) {
