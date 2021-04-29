@@ -119,7 +119,7 @@ var pageload = function(){
 
         fetchData: function(){
           $.connection.hub.start().done(function () {
-            console.log('connected !!!')
+            // console.log('connected !!!')
             chat.server.interns_Insert("", 'SELECT');         
           });
         },
