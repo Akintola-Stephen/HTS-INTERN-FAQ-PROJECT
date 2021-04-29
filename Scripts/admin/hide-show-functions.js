@@ -6,6 +6,7 @@
           $('.wonder').hide();
           $('#add-user-form').hide();
           $("#user-log-table").hide();
+          $('#category-create-form').hide();
           $('#customers-logs-form').hide();
         });
       });
@@ -17,6 +18,7 @@
           $('#add-user-form').show('slow');
           $('#log-table').hide();
           $("#user-log-table").hide();
+          $('#category-create-form').hide();
           $('#customers-logs-form').hide();
         });
       });
@@ -27,6 +29,7 @@
         $('#dash').click(function () {
           $('.d-flex').show('slow');
           $('.table-responsive').hide();
+          $('#category-create-form').hide();
           $('#add-user-form').hide();
         });
       });
@@ -38,10 +41,21 @@
           $('#customers-logs-form').hide();
           $('.table-responsive').hide();
           $('#add-user-form').hide();
+          $('#category-create-form').hide();
           $('#customers-logs-form').show('slow');
         });
       });
   
+      $(document).ready(function () {
+        $('#category-create-form').hide();
+        $('#category-assign').click(function () {
+          $('#customers-logs-form').hide();
+          $('.table-responsive').hide();
+          $('#add-user-form').hide();
+          $('#customers-logs-form').show('slow');
+        });
+      });
+
   
       $(document).ready(function () {
         $('#success-message').hide();
@@ -53,6 +67,8 @@
           $('.table-responsive').hide();
         });
       });
+
+      category-assign
   
       // Filtering name on-key press real time
       $(document).ready(function () {
