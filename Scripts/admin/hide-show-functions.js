@@ -49,10 +49,10 @@
       $(document).ready(function () {
         $('#category-create-form').hide();
         $('#category-assign').click(function () {
+          $('#category-create-form').show('slow');
           $('#customers-logs-form').hide();
           $('.table-responsive').hide();
           $('#add-user-form').hide();
-          $('#customers-logs-form').show('slow');
         });
       });
 
