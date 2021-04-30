@@ -46,8 +46,7 @@
   <link href="../users/dashboard.css" rel="stylesheet">
 </head>
 
-<body style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-
+<body style="font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;">
   <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
     <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">High Tech Synegy</a>
     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
@@ -136,11 +135,11 @@
           </ul>
         </div>
       </nav>
-
+      
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <div class="container">
+          <!-- Form for adding and assigning users to role -->
           <div id="add-user-form">
-
             <div class="mb-3">
               <label for="exampleInputName" class="form-label">User name</label>
               <input type="text" name="USERNAME" class="form-control" id="exampleInputName"
@@ -165,30 +164,30 @@
 
             <button type="button" class="btn btn-danger" id="assign-user-btn">Assign</button>
 
-            <div id="success-message"
-              style="background-color: green; padding-top: 5px; padding-bottom: 5px; padding-right:5px; padding-left: 5px;">
-              Succesfully assigned role to user
-            </div>
-
           </div>
 
-         <div id="category-create-form">   
-            <div class="mb-3">
-              <label for="exampleInputName" class="form-label">User name</label>
-              <input type="text" name="USERNAME" class="form-control" id="exampleInputName"
-                aria-describedby="emailHelp">
-            </div>
-    
-            <button type="button" class="btn btn-danger" id="assign-category-btn">Assign category</button>
- 
+          <!-- Display success message whenever admin creates and assigns user -->
+          <div id="success-message"
+            style="background-color: lightgreen; padding-top: 5px; padding-bottom: 5px; padding-right:5px; padding-left: 5px;">
+            Succesfully assigned role to user
           </div>
         </div>
 
+        <!--   Form used to add a complaint category to the back-end -->
+        <div id="category-create-form">
+          <div class="mb-3">
+            <label for="complaintInputName" class="form-label">Create a complaint category</label>
+            <input type="text" name="USERNAME" class="form-control" id="complaintInputName"
+              aria-describedby="emailHelp">
+          </div>
 
+          <button type="button" class="btn btn-danger" id="assign-category-btn">Assign category</button>
 
+        </div>
+
+        <!-- HandleBars table that performs task of creating a table that contains fetched records from database -->
         <div class="table-responsive" id="log-table">
           <div class="card" id="request-area"></div>
-
           <script id="table" type="text/x-handlebars">
             <table class="table table-striped" id="log-table">
               <thead>
@@ -204,8 +203,8 @@
               </thead>
             <tbody>
                 {{#each request}}
-                  <tr data-id={{COMPLAINT_ID}}>
-                    <td>{{COMPLAINT_ID}}
+                  <tr>
+                    <td>{{COMPLAINT_ID}}</td>
                     <td>{{CUSTOMER_NAME}}</td>
                     <td>{{REQUEST}}</td>
                     <td name = "status-name">{{STATUS_NAME}}</td>
@@ -213,17 +212,16 @@
                     <td>
                       <select id="request-select" class="form-select form-select-sm mb-3" aria-label=".form-select-lg example" name="ROLE_ID">
                         <option selected>Delegate request to user ...</option>
-                        {{#each ../users}}
-                        <option  value={{id}}>{{username}}</option>
-                        {{/each}}
+                        <option  value="1">Stephen</option>
+                        <option  value="2">Nehpets</option>
                       </select>
                     </td>
 
-                    <td><select id="complaint-category-select" class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
+                    <td>
+                      <select id="complaint-category-select" class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
                       <option  value="1">Mild</option>
                       <option  value="2">Severe</option>
-                      <option value="3">Immediate response</option>
-                      
+                      <option value="3">Immediate response</option>        
                     </select></td>
                   </tr>
                 {{/each}}
@@ -232,29 +230,29 @@
         </script>
         </div>
       </main>
+      
     </div>
   </div>
 
 
 
-  <script src="../Scripts/admin/dashboard.js"></script>
-  <script src="../Scripts/admin/hide-show-functions.js"></script>
-  <script src="../users/js/bootstrap.bundle.min.js"></script>
+<script src="../Scripts/admin/dashboard.js"></script>
+<script src="../Scripts/admin/hide-show-functions.js"></script>
+<script src="../users/js/bootstrap.bundle.min.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"
-    integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"
-    integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha"
-    crossorigin="anonymous"></script>
-  <script src="../users/dashboard.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"
+  integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE"
+  crossorigin="anonymous"></script>
+
+<script src="../users/dashboard.js"></script>
 
 
-  <script>
-    Handlebars.registerHelper('formatDate', function (date) {
-      return new Date(date).toDateString();
-    })
-  </script>
+<script>
+  Handlebars.registerHelper('formatDate', function (date) {
+    return new Date(date).toDateString();
+  })
+</script>
+
 </body>
 
 </html>

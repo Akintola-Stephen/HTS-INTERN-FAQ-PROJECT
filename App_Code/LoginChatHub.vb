@@ -16,16 +16,16 @@ Imports System.Drawing
         Public Function interns_Insert(
             ByVal username As String,
             ByVal password As String 
-            ) As DataSet
+            ) As String
             
             Dim status As String = "ERROR"
             Dim dc_return As New Dictionary(Of String, Object)
             
             Try
-                Dim ds As DataSet = DAL.internsInsert_SignalR(username, password)
+                Dim ds As DataSet = LoginDAL.internsInsert_SignalR(username, password)
                 Dim dt As DataTable = ds.Tables(0)
                 dc_return.Add("RESULT", dt)
-                dc_return.Add("ACTION_TYPE", ACTION_TYPE)
+               ' dc_return.Add("ACTION_TYPE", ACTION_TYPE)
                 status = "SUCCESS"
                 
             Catch ex As Exception

@@ -54,7 +54,7 @@ var pageload = function () {
 
 
     generateTable: function (myDataa) {
-      pageload.compileAndInertHtml('table', { request: myDataa, users: [{ id: "1", username: "Stephen" }, { id: "2", username: "Akinola" }] }, 'request-area');
+      pageload.compileAndInertHtml('table', { request: myDataa }, 'request-area');
       pageload.pageEvents();
     },
 

@@ -3,7 +3,6 @@
         $('.table-responsive').hide();
         $('#customer-logs').click(function () {
           $('.table-responsive').show('slow');
-          $('.wonder').hide();
           $('#add-user-form').hide();
           $("#user-log-table").hide();
           $('#category-create-form').hide();
@@ -67,8 +66,6 @@
           $('.table-responsive').hide();
         });
       });
-
-      category-assign
   
       // Filtering name on-key press real time
       $(document).ready(function () {
