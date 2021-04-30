@@ -12,8 +12,6 @@ var pageload = function () {
             event.preventDefault();
             console.warn(hub);
 
-            
-
             // SignalR code that allows communication between VB and JS code together 
             $.connection.hub.start().done(function () {
                 console.log('connected')
