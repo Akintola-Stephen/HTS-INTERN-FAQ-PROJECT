@@ -9,11 +9,11 @@ Imports System.Data.SqlClient
 Imports System.Globalization
 Imports System.Drawing
 
-    Public Class LoginChatHub
+    Public Class LoginHub
         Inherits Hub
         Dim LoginDAL As New LoginDAL
 
-        Public Function interns_Insert(
+        Public Function login(
             ByVal username As String,
             ByVal password As String 
             ) As String
@@ -36,35 +36,6 @@ Imports System.Drawing
              Clients.All.broadcastrecords(JsonConvert.SerializeObject(dc_return))
             Return JsonConvert.SerializeObject(dc_return)
         End Function
-
-
-        ' Public Function interns_Update(
-        '     ByVal JSON_STRING As String,
-        '     ByVal ACTION_TYPE As String  
-        '     ) As String
-            
-        '     Dim status As String = "ERROR"
-        '     Dim dc_return As New Dictionary(Of String, Object)
-            
-        '     Try
-        '         Dim ds As DataSet = DAL.internsUpdate_SignalR(JSON_STRING, ACTION_TYPE)
-        '         Dim dt As DataTable = ds.Tables(0)
-        '         dc_return.Add("RESULT", dt)
-        '         dc_return.Add("ACTION_TYPE", ACTION_TYPE)
-        '         status = "SUCCESS"
-                
-        '     Catch ex As Exception
-        '         BLL.WriteLog(ex.Message + " : " + ex.StackTrace)
-        '     End Try
-
-        '     dc_return.Add("STATUS", status)
-        '      Clients.All.broadcastrecords(JsonConvert.SerializeObject(dc_return))
-        '     Return JsonConvert.SerializeObject(dc_return)
-        ' End Function
-
-
-  
-
 
     End Class
 

@@ -1,32 +1,31 @@
 var loginUsers = [];
-var chat = $.connection.LoginChatHub;
-
-chat.client.broadcastrecords = function (data) {
-    var dData = JSON.parse(data)
-    pageload.generateTable(dData.RESULT);
-}
+var hub = $.connection.LoginHub;
 
 
 var pageload = function () {
     return {
         init: function () {
             pageload.pageEvents();
-
         },
 
         addUser: function (event) {
             event.preventDefault();
-            console.warn(chat);
+            console.warn(hub);
+
+            
 
             // SignalR code that allows communication between VB and JS code together 
             $.connection.hub.start().done(function () {
-                console.log('connected !!!')
-                var myobj = pageload.getDataFromFormData();
-                databaseRegisteredUsers.push(myobj);
-                pageload.clearForm(event.target);
+                console.log('connected')
 
-                var JSON_STRING = JSON.stringify(databaseRegisteredUsers);
-                chat.server.interns_Insert(JSON_STRING, 'INSERT')
+                let username = $("#user").val();
+                let password = $("#pass").val();
+
+                var myobj = [{ USERNAME: username, PASSWORD: password }]
+                loginUsers.push(myobj)
+                pageload.clearForm(event.target)
+
+                hub.server.login(username, password)
                     .done(function (data) {
                         console.log(data);
                     });
@@ -46,7 +45,7 @@ var pageload = function () {
         fetchData: function () {
             $.connection.hub.start().done(function () {
                 // console.log('connected !!!')
-                chat.server.interns_Insert("", 'SELECT');
+                hub.server.interns_Insert("", 'SELECT');
             });
         },
 

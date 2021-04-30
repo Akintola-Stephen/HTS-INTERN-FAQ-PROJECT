@@ -13,6 +13,9 @@
   <script src="../signalr/hubs"></script>
   <!-- Custom styles for this template -->
 
+
+  <script src="../Scripts/Authentication/authenticate.js"></script>
+
   <title>Login page</title>
 
   <link rel="stylesheet" href="signin.css">
@@ -21,11 +24,11 @@
 <body>
   <div class="login">
     <h1 style="margin-bottom:20px;">Login</h1>
-      <div id="log-from">
-        <input type="text" name="u" placeholder="Username" required="required" />
-          <input type="password" name="p" placeholder="Password" required="required" />
-          <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
-      </div>
+    <div id="log-form-id">
+      <input type="text" name="USERNAME" placeholder="Username" required="required" id="user" />
+      <input type="password" name="PASSWORD" placeholder="Password" required="required" id="pass" />
+      <button type="button" id="log-form-id" class="btn btn-primary btn-block btn-large">Let me in.</button>
+    </div>
   </div>
 </body>
 
