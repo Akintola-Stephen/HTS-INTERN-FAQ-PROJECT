@@ -53,6 +53,27 @@ Public Class DAL
     End Function
 
 
+    Public Function category_SignalR(
+        ByVal JSON_STRING As String,
+        ByVal ACTION_TYPE As String 
+        ) As DataSet
+       
+        Try
+            Dim params() As SqlParameter = {New SqlParameter("@JSON_STRING", JSON_STRING),
+                                            New SqlParameter("@ACTION_TYPE", ACTION_TYPE)
+                                            }
+                                            
+            'ADMIN_USER_MODULE_OPERATION is used to specify the name of the stored procedure
+            Return SqlHelper.ExecuteDataset(conn, CommandType.StoredProcedure, "ADMIN_COMPLAINT_CATEGORY_MODULE_OPERATION", params)
+        Catch ex As Exception
+            BLL.WriteLog(ex.Message + " : " + ex.StackTrace)
+            Return Nothing
+        Finally
+            conn.Close()
+        End Try
+    End Function
+
+
    
 
     

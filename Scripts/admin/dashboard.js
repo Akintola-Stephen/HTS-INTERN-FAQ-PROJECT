@@ -1,17 +1,23 @@
 var databaseRegisteredUsers = [];
+var complaintDB = [];
 var table = $("#requestTable");
 var chat = $.connection.chatHub;
 
 chat.client.broadcastrecords = function (data) {
   var dData = JSON.parse(data)
-  if (dData.ACTION_TYPE == 'SELECT') {
+  if (dData.ACTION_TYPE == 'SELECT' ) {
     pageload.generateTable(dData.RESULT);
   }
-  else if (dData.ACTION_TYPE == 'INSERT' || dData.ACTION_TYPE == 'DELETE') {
+
+  else if (dData.ACTION_TYPE == 'INSERT' || dData.ACTION_TYPE == 'DELETE' ) {
     pageload.fetchData();
   }
+  // else if (dData.ACTION_TYPE == 'SELECT_USERS'){
+  //   pageload.generateUserTable(dData.RESULT);
+  // }
 
 }
+
 
 
 var pageload = function () {
@@ -19,6 +25,7 @@ var pageload = function () {
     init: function () {
       pageload.pageEvents();
       pageload.fetchData();
+      pageload.fetchUserData();
     },
 
     addUser: function (event) {
@@ -33,7 +40,49 @@ var pageload = function () {
         pageload.clearForm(event.target);
 
         var JSON_STRING = JSON.stringify(databaseRegisteredUsers);
+        chat.server.interns_Insert(JSON_STRING, 'INSERT_COMPLAINT')
+          .done(function (data) {
+            console.log(data);
+          });
+
+      });
+      
+    },
+
+    addComplaint: function (event) {
+      event.preventDefault();
+      console.warn(chat);
+
+      // SignalR code that allows communication between VB and JS code together 
+      $.connection.hub.start().done(function () {
+        console.log('connected !!!')
+        var complaint_cat = pageload.getComplaintData();
+        complaintDB.push(complaint_cat);
+        pageload.clearUserForm(event.target);
+
+        var JSON_STRING = JSON.stringify(complaintDB);
         chat.server.interns_Insert(JSON_STRING, 'INSERT')
+          .done(function (data) {
+            console.log(data);
+          });
+
+      });
+      
+    },
+
+    addComplaintCategory: function (event) {
+      event.preventDefault();
+      console.warn(chat);
+
+      // SignalR code that allows communication between VB and JS code together 
+      $.connection.hub.start().done(function () {
+        console.log('connected !!!')
+        var obj = pageload.getComplaintData();
+        registeredComplaint.push(obj);
+        pageload.clearForm(event.target);
+
+        var JSON_STRING = JSON.stringify(categoryDatabase);
+        chat.server.Category_SignalR_ChatHub(JSON_STRING, 'INSERT')
           .done(function (data) {
             console.log(data);
           });
@@ -54,9 +103,15 @@ var pageload = function () {
 
 
     generateTable: function (myDataa) {
-      pageload.compileAndInertHtml('table', { request: myDataa }, 'request-area');
+      pageload.compileAndInertHtml('table', { request: myDataa}, 'request-area');
       pageload.pageEvents();
     },
+
+    generateUserTable: function (myDataa) {
+      pageload.compileAndInertHtml('users-table', { request: myDataa, users: userData }, 'user-list');
+      pageload.pageEvents();
+    },
+
 
     pageEvents: function () {
       $(".deleteBtn").off("click").on("click", function (event) {
@@ -117,6 +172,13 @@ var pageload = function () {
 
     },
 
+    getComplaintData: function () { 
+      obs = {"CATEGORY": $("#category-create-form textarea").val()}
+      console.log(bos)
+      return bos;
+    },
+
+
     fetchData: function () {
       $.connection.hub.start().done(function () {
         // console.log('connected !!!')
@@ -124,9 +186,21 @@ var pageload = function () {
       });
     },
 
+    fetchUserData: function () {
+      $.connection.hub.start().done(function () {
+        // console.log('connected !!!')
+        chat.server.interns_Insert("", 'SELECT_USERS');
+      });
+    },
+
     clearForm: function (form) {
       $("input, #selected").val("");
+    },
+
+    clearUserForm: function(form){
+      $("#category-create-form textarea").val("")
     }
+
   }
 
 }();

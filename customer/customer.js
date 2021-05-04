@@ -32,8 +32,8 @@ var pageload = function(){
             console.log(myobj);
             customerComplaint.push(myobj);
             
-            var JSON_STRING = JSON.stringify(databaseRegisteredUsers);
-            chat.server.interns_Insert(JSON_STRING, 'INSERT')
+            var JSON_STRING = JSON.stringify(customerComplaint);
+            chat.server.category_signalR_chatHub(JSON_STRING, 'INSERT')
             .done(function(data){
               console.log(data);
             });   
@@ -88,7 +88,7 @@ var pageload = function(){
         fetchData: function(){
           $.connection.hub.start().done(function () {
             console.log('connected !!!')
-            chat.server.interns_Insert("", 'SELECT');         
+            chat.server.category_signalR_chatHub("", 'SELECT');         
           });
         },
 

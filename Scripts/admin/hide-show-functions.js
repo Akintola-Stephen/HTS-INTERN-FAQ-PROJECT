@@ -6,9 +6,23 @@
           $('#add-user-form').hide();
           $("#user-log-table").hide();
           $('#category-create-form').hide();
+          $('.responsive').hide();
           $('#customers-logs-form').hide();
         });
       });
+
+      $(document).ready(function () {
+        $('#user-list').hide();
+        $('#user-list-show').click(function () {
+          $('#user-list').show('slow');
+          $('#add-user-form').hide();
+          $("#user-log-table").hide();
+          $('#category-create-form').hide();
+          $('.responsive').hide();
+          $('#customers-logs-form').hide();
+        });
+      });
+  
   
   
       $(document).ready(function () {
@@ -18,6 +32,7 @@
           $('#log-table').hide();
           $("#user-log-table").hide();
           $('#category-create-form').hide();
+          $('.responsive').hide();
           $('#customers-logs-form').hide();
         });
       });
@@ -29,6 +44,7 @@
           $('.d-flex').show('slow');
           $('.table-responsive').hide();
           $('#category-create-form').hide();
+          $('.responsive').hide();
           $('#add-user-form').hide();
         });
       });
@@ -41,6 +57,7 @@
           $('.table-responsive').hide();
           $('#add-user-form').hide();
           $('#category-create-form').hide();
+          $('.responsive').hide();
           $('#customers-logs-form').show('slow');
         });
       });
@@ -52,6 +69,7 @@
           $('#customers-logs-form').hide();
           $('.table-responsive').hide();
           $('#add-user-form').hide();
+          $('.responsive').hide();
         });
       });
 

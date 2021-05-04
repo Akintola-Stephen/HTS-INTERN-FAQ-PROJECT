@@ -11,7 +11,7 @@ Public Class LoginDAL
 
     End Sub
 
-    Public Function internsInsert_SignalR(
+    Public Function login_SignalR(
         ByVal username As String,
         ByVal password As String 
         ) As DataSet
@@ -21,7 +21,7 @@ Public Class LoginDAL
                                             New SqlParameter("@password", password)
                                             }
                                             
-            'ADMIN_USER_MODULE_OPERATION is used to specify the name of the stored procedure
+            'ADMIN_USER_MODULE_OPERATION is used to specify the name of the stored procedure'
             Return SqlHelper.ExecuteDataset(conn, CommandType.StoredProcedure, "Validate_User_login", params)
         Catch ex As Exception
             BLL.WriteLog(ex.Message + " : " + ex.StackTrace)

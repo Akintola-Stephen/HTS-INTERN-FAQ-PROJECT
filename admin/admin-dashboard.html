@@ -79,9 +79,9 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" id="user-list-show" href="#">
                 <span data-feather="layers"></span>
-                Integrations
+                List of users
               </a>
             </li>
           </ul>
@@ -147,7 +147,7 @@
               <option value="2">Developer User</option>
             </select>
 
-            <button type="button" class="btn btn-danger" id="assign-user-btn">Assign</button>
+            <button type="button" class="btn btn-success" id="assign-user-btn">Assign</button>
 
           </div>
 
@@ -162,7 +162,7 @@
         <div id="category-create-form">
           <div class="mb-3">
             <label for="complaintInputName" class="form-label">Create a complaint category</label>
-            <textarea name="USERNAME" class="form-control" id="complaintInputName" style="height:200px;"
+            <textarea name="CATEGORY" class="form-control" id="complaintInputName" style="height:200px;"
               aria-describedby="emailHelp"></textarea>
           </div>
 
@@ -171,6 +171,8 @@
         </div>
 
         <!-- HandleBars table that performs task of creating a table that contains fetched records from database -->
+        
+
         <div class="table-responsive" id="log-table">
           <div class="card" id="request-area"></div>
           <script id="table" type="text/x-handlebars">
@@ -183,7 +185,6 @@
                   <th>REQUEST STATUS</th>
                   <th>LOGGED REQUEST DATE</th>
                   <th>DELEGATE REQUEST TO A USER</th>
-                  <th> ASSIGN COMPLAINT TO CATEGORY </th>
                 </tr>
               </thead>
             <tbody>
@@ -202,18 +203,39 @@
                       </select>
                     </td>
 
-                    <td>
-                      <select id="complaint-category-select" class="form-select form-select-sm mb-3" aria-label=".form-select-lg example">
-                      <option  value="1">Mild</option>
-                      <option  value="2">Severe</option>
-                      <option value="3">Immediate response</option>        
-                    </select></td>
+                  </tr>
+                {{/each}}
+              </tbody>
+          </table>
+        </script>
+
+        <div class="table-responsive" id="user-log-table">
+          <div class="card" id="user-list"></div>
+          <script id="users-table" type="text/x-handlebars">
+            <table class="table table-striped" id="log-table">
+              <thead>
+                <tr style="background-color:#092756; color:white;">
+                  <th>USER-ID</th>
+                  <th>USER NAME</th>
+                  <th>DATE CREATED</th>
+                </tr>
+              </thead>
+            <tbody>
+                {{#each request}}
+                  <tr style="margin-top:10px;">
+                    <td>{{USERID}}</td>
+                    <td>{{USERNAME}}</td>
+                    <td>{{formatDate DATE_CREATED}}</td>
                   </tr>
                 {{/each}}
               </tbody>
           </table>
         </script>
         </div>
+
+        </div>
+
+
       </main>
       
     </div>

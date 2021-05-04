@@ -38,7 +38,7 @@ Imports System.Drawing
         End Function
 
 
-        Public Function interns_Update(
+        Public Function category_signalR_chatHub(
             ByVal JSON_STRING As String,
             ByVal ACTION_TYPE As String  
             ) As String
@@ -47,7 +47,7 @@ Imports System.Drawing
             Dim dc_return As New Dictionary(Of String, Object)
             
             Try
-                Dim ds As DataSet = DAL.internsUpdate_SignalR(JSON_STRING, ACTION_TYPE)
+                Dim ds As DataSet = DAL.category_SignalR(JSON_STRING, ACTION_TYPE)
                 Dim dt As DataTable = ds.Tables(0)
                 dc_return.Add("RESULT", dt)
                 dc_return.Add("ACTION_TYPE", ACTION_TYPE)
